@@ -23,13 +23,13 @@ This educational project was completed based on the following stages:
 
 1. Dataset Preparation📚 The dataset was loaded from the data folder.
 
-  🗑️ The proximity_ocean column was removed for analysis.
- 
-  🏷️ The value_house_median column was selected as the label, and other columns were used as input features.
-  
-  🔪 The data was split into three sections: Training (70%), Evaluation (20%), and Testing (10%).
-  
-  📦 A DataLoader was used for batching the data.
+    🗑️ The proximity_ocean column was removed for analysis.
+   
+    🏷️ The value_house_median column was selected as the label, and other columns were used as input features.
+    
+    🔪 The data was split into three sections: Training (70%), Evaluation (20%), and Testing (10%).
+    
+    📦 A DataLoader was used for batching the data.
 
 2. Neural Network Model Definition🧠
     
@@ -39,13 +39,13 @@ This educational project was completed based on the following stages:
 
 4. Loss Function Definition and Comparison📉
    
-   Huber Loss,
+   **Huber Loss**,
    
-   L1 Loss,
+   **L1 Loss**,
    
-   MSE Loss,
+   **MSE Loss**,
    
-   and a custom Adaptive Loss were implemented and their performance was evaluated.
+   and a **custom Adaptive Loss** were implemented and their performance was evaluated.
    
 📊 The r2 metric was calculated for each loss function, and the results were compared in a table.
 
@@ -61,7 +61,11 @@ How to Run the CodePrerequisites:
 
   🛠️ Make sure you have the necessary libraries, such as PyTorch, installed.
 
-  Run the Notebook: 🖥️ The code is available in .... You can run it in Google Colab or any Jupyter environment. 
+  Run the Notebook: 🖥️ The code is available here
+
+  https://github.com/NiliSoleil/MLP-Loss-Functions-and-Optimizers/blob/main/MLP_Loss_Functions_Optimizers.ipynb
+  
+  You can run it in Google Colab or any Jupyter environment. 
   
   
 Niloufar Soleil
